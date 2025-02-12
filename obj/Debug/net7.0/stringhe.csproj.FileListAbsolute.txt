@@ -1,0 +1,14 @@
+C:\Users\onorati.nicolo\Desktop\progetti\stringhe\stringhe\bin\Debug\net7.0\stringhe.exe
+C:\Users\onorati.nicolo\Desktop\progetti\stringhe\stringhe\bin\Debug\net7.0\stringhe.deps.json
+C:\Users\onorati.nicolo\Desktop\progetti\stringhe\stringhe\bin\Debug\net7.0\stringhe.runtimeconfig.json
+C:\Users\onorati.nicolo\Desktop\progetti\stringhe\stringhe\bin\Debug\net7.0\stringhe.dll
+C:\Users\onorati.nicolo\Desktop\progetti\stringhe\stringhe\bin\Debug\net7.0\stringhe.pdb
+C:\Users\onorati.nicolo\Desktop\progetti\stringhe\stringhe\obj\Debug\net7.0\stringhe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\onorati.nicolo\Desktop\progetti\stringhe\stringhe\obj\Debug\net7.0\stringhe.AssemblyInfoInputs.cache
+C:\Users\onorati.nicolo\Desktop\progetti\stringhe\stringhe\obj\Debug\net7.0\stringhe.AssemblyInfo.cs
+C:\Users\onorati.nicolo\Desktop\progetti\stringhe\stringhe\obj\Debug\net7.0\stringhe.csproj.CoreCompileInputs.cache
+C:\Users\onorati.nicolo\Desktop\progetti\stringhe\stringhe\obj\Debug\net7.0\stringhe.dll
+C:\Users\onorati.nicolo\Desktop\progetti\stringhe\stringhe\obj\Debug\net7.0\refint\stringhe.dll
+C:\Users\onorati.nicolo\Desktop\progetti\stringhe\stringhe\obj\Debug\net7.0\stringhe.pdb
+C:\Users\onorati.nicolo\Desktop\progetti\stringhe\stringhe\obj\Debug\net7.0\stringhe.genruntimeconfig.cache
+C:\Users\onorati.nicolo\Desktop\progetti\stringhe\stringhe\obj\Debug\net7.0\ref\stringhe.dll

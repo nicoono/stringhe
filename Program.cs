@@ -25,6 +25,22 @@ void spezzaMeta(string stringa)
     Console.WriteLine(secondaParte);
 }
 
+int Converti_in_decimale(string stringa)
+{
+    int decimale = 0, potenza = 1;
+    for (int i = stringa.Length - 1; i >= 0; i--)
+    {
+        if (stringa[i] == '1')
+        {
+
+            decimale += potenza;
+            
+        }
+        potenza *= 2;
+    }
+    return decimale;
+}
+
 
 // MAIN 
 // ESERCIZIO 4
@@ -35,3 +51,9 @@ Console.WriteLine(palindroma(stringa));
 
 // ESERCIZIO 3
 spezzaMeta(stringa);
+
+// ESERCIZIO 1
+string stringa2 = "";
+Console.WriteLine("Dimmi un bianrio di massimo 8 bit");
+stringa2 = Console.ReadLine();
+Console.WriteLine(Converti_in_decimale(stringa));
