@@ -25,12 +25,12 @@ void spezzaMeta(string stringa)
     Console.WriteLine(secondaParte);
 }
 
-int Converti_in_decimale(string stringa)
+int Converti_in_decimale(string binario)
 {
     int decimale = 0, potenza = 1;
-    for (int i = stringa.Length - 1; i >= 0; i--)
+    for (int i = binario.Length - 1; i >= 0; i--)
     {
-        if (stringa[i] == '1')
+        if (binario[i] == '1')
         {
 
             decimale += potenza;
@@ -56,4 +56,4 @@ spezzaMeta(stringa);
 string stringa2 = "";
 Console.WriteLine("Dimmi un bianrio di massimo 8 bit");
 stringa2 = Console.ReadLine();
-Console.WriteLine(Converti_in_decimale(stringa));
+Console.WriteLine(Converti_in_decimale(stringa2));
