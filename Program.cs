@@ -41,6 +41,22 @@ int Converti_in_decimale(string binario)
     return decimale;
 }
 
+void EliminaSpaziEcesso (string stringa)
+{
+    string[] frase = stringa.Split(" ");
+    for(int i = 0; i< frase.Length; i++)
+    {
+        if (frase[i] != "")
+        {
+            Console.Write(frase[i] + " ");
+        }
+    }
+}
+
+
+
+
+
 
 // MAIN 
 // ESERCIZIO 4
@@ -57,3 +73,8 @@ string stringa2 = "";
 Console.WriteLine("Dimmi un bianrio di massimo 8 bit");
 stringa2 = Console.ReadLine();
 Console.WriteLine(Converti_in_decimale(stringa2));
+
+// ESERCIZIO 2
+Console.WriteLine("dimmi una parola con tanti spazi");
+stringa = Console.ReadLine();
+EliminaSpaziEcesso(stringa);
