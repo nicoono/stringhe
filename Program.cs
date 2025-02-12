@@ -1,4 +1,18 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿bool palindroma(string stringa)
+{
+    for (int i = 0; i < stringa.Length - i; i++)
+    {
+        if (stringa[i] != stringa[stringa.Length - i - 1])
+        {
+            return false;
+        }
+    }
+    return true;
+}
 
-int a = 0;
+// MAIN 
+// ESERCIZIO 4
+string stringa = "";
+Console.WriteLine("dimmi una parola");
+stringa = Console.ReadLine();
+Console.WriteLine(palindroma(stringa));
