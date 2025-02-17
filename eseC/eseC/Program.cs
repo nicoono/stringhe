@@ -24,3 +24,10 @@ bool controlla_parentesi(string esp)
     }
     return false;
 }
+
+
+// main
+
+Console.WriteLine("dimmi espressione");
+string espressione = Console.ReadLine();
+Console.WriteLine(controlla_parentesi(espressione));
